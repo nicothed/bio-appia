@@ -1,8 +1,8 @@
 # Chapitre 1 : Les Appia — Une famille vaudoise entre Suisse et Piémont
 
-## Les racines vaudoises dans les vallées alpines...
+## Les racines vaudoises dans les vallées alpines
 
-L'histoire de Louis Appia commence bien avant sa naissance en 1818, dans les vallées alpines du Piémont où sa famille puise ses racines. Les Appia appartiennent à cette communauté vaudoise qui, pendant des siècles, a maintenu sa foi protestante dans un contexte de persécution et d'isolement géographique. Cette appartenance confessionnelle et culturelle marquera profondément l'identité familiale et, par extension, la vie et l'oeuvre de Louis Appia...
+L'histoire de Louis Appia commence bien avant sa naissance en 1818, dans les vallées alpines du Piémont où sa famille puise ses racines. Les Appia appartiennent à cette communauté vaudoise qui, pendant des siècles, a maintenu sa foi protestante dans un contexte de persécution et d'isolement géographique. Cette appartenance confessionnelle et culturelle marquera profondément l'identité familiale et, par extension, la vie et l'oeuvre de Louis Appia.
 
 Les vallées vaudoises du Piémont — notamment la vallée de Luserne et ses environs — constituent depuis le Moyen Âge un foyer de résistance protestante. Malgré les édits de persécution, les "Pâques piémontaises" de 1655 et les multiples tentatives de conversion forcée, la communauté vaudoise a maintenu sa cohésion religieuse et sociale. C'est dans ce contexte que s'inscrit la famille Appia, dont les membres sont profondément enracinés dans la tradition protestante valdôtaine....
 
