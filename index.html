@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Louis Appia (1818-1898)</title>
+<style>
+/* ═══════════════════════════════════════════════════
+   VARIABLES
+   ═══════════════════════════════════════════════════ */
+:root {
+  --bg:#FDFAF6; --bg2:#F5F0E8; --text:#2C2416; --text2:#6B5D4D;
+  --accent:#8B1A1A; --accent2:#C4463A; --accent-bg:#FDF0EF;
+  --border:#E0D5C5; --shadow:rgba(44,36,22,.08);
+  --side-w:270px; --radius:8px;
+}
+[data-theme="dark"] {
+  --bg:#1A1814; --bg2:#242018; --text:#E8DFD0; --text2:#A89880;
+  --accent:#E05A4F; --accent2:#F07A6F; --accent-bg:#2A1A18;
+  --border:#3A3428; --shadow:rgba(0,0,0,.3);
+}
+
+/* ═══════════════════════════════════════════════════
+   RESET & BASE
+   ═══════════════════════════════════════════════════ */
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Georgia,'Times New Roman',serif;background:var(--bg);color:var(--text);line-height:1.78;font-size:17px}
+::selection{background:var(--accent);color:#fff}
+
+/* ═══════════════════════════════════════════════════
+   PROGRESS BAR
+   ═══════════════════════════════════════════════════ */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);z-index:1000;width:0;transition:width .15s}
+
+/* ═══════════════════════════════════════════════════
+   SIDEBAR
+   ═══════════════════════════════════════════════════ */
+.sidebar{
+  position:fixed;top:0;left:0;bottom:0;width:var(--side-w);
+  background:var(--bg2);border-right:1px solid var(--border);
+  overflow-y:auto;z-index:100;padding-bottom:20px;
+  transition:transform .3s ease;
+}
+.sidebar::-webkit-scrollbar{width:4px}
+.sidebar::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px}
+
+.side-head{padding:20px;border-bottom:1px solid var(--border)}
+.side-head h1{font-size:15px;color:var(--accent);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-spacing:.5px;margin-bottom:2px}
+.side-head p{font-size:12px;color:var(--text2);font-family:-apple-system,sans-serif}
+
+.side-group{padding:8px 0 0;margin:0}
+.side-group-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--text2);padding:12px 20px 4px;font-family:-apple-system,sans-serif}
+
+.nav-item{
+  display:block;padding:7px 20px;color:var(--text);text-decoration:none;
+  font-size:13.5px;font-family:-apple-system,sans-serif;cursor:pointer;
+  border-left:3px solid transparent;transition:all .12s;white-space:nowrap;
+  overflow:hidden;text-overflow:ellipsis;
+}
+.nav-item:hover{background:var(--accent-bg);color:var(--accent)}
+.nav-item.active{border-left-color:var(--accent);color:var(--accent);font-weight:600;background:var(--accent-bg)}
+
+.side-tools{
+  padding:12px 16px;border-top:1px solid var(--border);margin-top:12px;
+  display:flex;gap:6px;flex-wrap:wrap;
+}
+.side-tools button{
+  background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);
+  padding:5px 10px;font-size:12px;cursor:pointer;color:var(--text);font-family:-apple-system,sans-serif;
+}
+.side-tools button:hover{background:var(--accent-bg);color:var(--accent)}
+
+/* ═══════════════════════════════════════════════════
+   HAMBURGER (mobile)
+   ═══════════════════════════════════════════════════ */
+.hamburger{
+  display:none;position:fixed;top:10px;left:10px;z-index:200;
+  background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);
+  padding:6px 10px;font-size:20px;cursor:pointer;color:var(--text);
+}
+
+/* ═══════════════════════════════════════════════════
+   MAIN
+   ═══════════════════════════════════════════════════ */
+.main{margin-left:var(--side-w);min-height:100vh}
+#content{padding:36px 56px;max-width:860px;margin:0 auto}
+
+/* ═══════════════════════════════════════════════════
+   TYPOGRAPHY
+   ═══════════════════════════════════════════════════ */
+#content h1{font-size:1.9em;color:var(--accent);margin:0 0 24px;line-height:1.3}
+#content h2{font-size:1.3em;color:var(--accent);margin:36px 0 14px;border-bottom:1px solid var(--border);padding-bottom:6px}
+#content h3{font-size:1.1em;color:var(--text);margin:24px 0 10px}
+#content p{margin-bottom:14px;text-align:justify}
+#content ul,#content ol{margin:0 0 14px 24px}
+#content li{margin-bottom:6px}
+#content strong{color:var(--text)}
+#content em{font-style:italic}
+#content figure{margin:28px 0;text-align:center}
+#content figure img{max-width:80%;border-radius:var(--radius);box-shadow:0 4px 16px var(--shadow);cursor:pointer}
+#content figcaption{font-size:.88em;color:var(--text2);font-style:italic;margin-top:10px;max-width:600px;margin-left:auto;margin-right:auto}
+.word-count{font-family:-apple-system,sans-serif;font-size:13px;color:var(--text2);margin-bottom:16px;padding:3px 12px;background:var(--bg2);border-radius:20px;display:inline-block}
+
+/* ═══════════════════════════════════════════════════
+   FOOTNOTES
+   ═══════════════════════════════════════════════════ */
+.fn-ref{
+  color:var(--accent);cursor:pointer;font-size:.72em;vertical-align:super;
+  padding:0 1px;font-family:-apple-system,sans-serif;font-weight:600;
+}
+.fn-ref:hover{color:var(--accent2)}
+.fn-popup{
+  position:absolute;background:var(--bg2);border:1px solid var(--border);
+  border-radius:var(--radius);padding:14px 18px;max-width:420px;font-size:14px;
+  line-height:1.6;box-shadow:0 8px 28px var(--shadow);z-index:500;
+  font-family:-apple-system,sans-serif;
+}
+.fn-popup .fn-close{position:absolute;top:4px;right:8px;cursor:pointer;font-size:16px;color:var(--text2)}
+
+/* ═══════════════════════════════════════════════════
+   PERSON LINKS & MODAL
+   ═══════════════════════════════════════════════════ */
+.person-link{color:var(--accent);cursor:pointer;border-bottom:1px dotted var(--accent);transition:color .12s}
+.person-link:hover{color:var(--accent2)}
+
+.overlay{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.45);z-index:550}
+.modal{
+  position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
+  background:var(--bg);border:1px solid var(--border);border-radius:12px;
+  padding:28px 32px;max-width:480px;width:92%;z-index:600;
+  box-shadow:0 16px 48px rgba(0,0,0,.15);
+}
+.modal h2{font-size:1.3em;margin-bottom:2px;border:none;padding:0}
+.modal .m-dates{color:var(--text2);font-size:.92em}
+.modal .m-role{color:var(--accent);font-size:.88em;font-style:italic;margin-bottom:14px;font-family:-apple-system,sans-serif}
+.modal .m-bio{line-height:1.7}
+.modal .m-close{position:absolute;top:10px;right:14px;font-size:22px;cursor:pointer;color:var(--text2)}
+
+/* ═══════════════════════════════════════════════════
+   CHAPTER NAVIGATION
+   ═══════════════════════════════════════════════════ */
+.ch-nav{display:flex;justify-content:space-between;gap:16px;margin-top:48px;padding-top:20px;border-top:1px solid var(--border)}
+.ch-nav button{
+  background:var(--bg2);border:1px solid var(--border);padding:10px 18px;
+  border-radius:var(--radius);cursor:pointer;font-size:13px;
+  font-family:-apple-system,sans-serif;color:var(--text);transition:all .12s;
+}
+.ch-nav button:hover{border-color:var(--accent);color:var(--accent)}
+
+/* ═══════════════════════════════════════════════════
+   ACCUEIL
+   ═══════════════════════════════════════════════════ */
+.hero{display:flex;align-items:center;gap:40px;margin-bottom:40px;padding:36px;background:linear-gradient(135deg,var(--accent-bg),var(--bg));border-radius:14px;border:1px solid var(--border)}
+.hero img{width:180px;border-radius:10px;box-shadow:0 8px 24px var(--shadow)}
+.hero h1{font-size:2.6em;margin-bottom:4px}
+.hero .sub{font-size:1.4em;color:var(--text2);font-style:italic;margin-bottom:6px}
+.hero .desc{font-size:1em;color:var(--text2)}
+.hero .auth{font-size:.95em;margin-top:4px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:28px 0}
+.card{text-align:center;padding:20px 12px;background:var(--bg2);border-radius:var(--radius);border:1px solid var(--border);cursor:pointer;transition:all .2s}
+.card:hover{transform:translateY(-2px);box-shadow:0 4px 12px var(--shadow);border-color:var(--accent)}
+.card .n{font-size:1.8em;font-weight:700;color:var(--accent)}
+.card .l{font-size:.82em;color:var(--text2);font-family:-apple-system,sans-serif;margin-top:2px}
+.start-btn{display:block;margin:32px auto;background:var(--accent);color:#fff;border:none;padding:12px 32px;font-size:1em;font-family:-apple-system,sans-serif;border-radius:var(--radius);cursor:pointer;transition:all .2s}
+.start-btn:hover{background:var(--accent2);transform:translateY(-1px)}
+
+/* ═══════════════════════════════════════════════════
+   ICONOGRAPHY
+   ═══════════════════════════════════════════════════ */
+.icon-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px;margin-top:24px}
+.icon-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:all .2s}
+.icon-card:hover{box-shadow:0 6px 20px var(--shadow);transform:translateY(-2px)}
+.icon-card img{width:100%;display:block;cursor:pointer;object-fit:cover;max-height:260px;transition:transform .3s}
+.icon-card img:hover{transform:scale(1.02)}
+.icon-card h3{font-size:.95em;padding:14px 14px 2px;color:var(--accent);font-family:-apple-system,sans-serif}
+.icon-card p{font-size:.84em;padding:0 14px 14px;color:var(--text2);line-height:1.55}
+
+/* ═══════════════════════════════════════════════════
+   FRISE CHRONOLOGIQUE
+   ═══════════════════════════════════════════════════ */
+.tl-filters{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:16px 0 28px}
+.tl-f{background:var(--bg2);border:1px solid var(--border);border-radius:18px;padding:5px 14px;font-size:12px;font-family:-apple-system,sans-serif;cursor:pointer;color:var(--text);transition:all .12s}
+.tl-f:hover,.tl-f.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.tl-year{font-family:-apple-system,sans-serif;font-weight:700;font-size:1.15em;color:var(--accent);margin:20px 0 10px;position:sticky;top:0;background:var(--bg);padding:6px 0;z-index:10;border-bottom:2px solid var(--accent)}
+.tl-ev{display:flex;gap:14px;padding:10px 14px;margin:3px 0;border-left:3px solid var(--border);transition:all .12s;border-radius:0 var(--radius) var(--radius) 0}
+.tl-ev:hover{background:var(--accent-bg);border-left-color:var(--accent)}
+.tl-ev-date{flex-shrink:0;width:110px;font-family:-apple-system,sans-serif;font-size:12.5px;color:var(--text2);font-weight:500}
+.tl-ev-body{flex:1}
+.tl-ev-type{display:inline-block;font-size:10px;font-family:-apple-system,sans-serif;padding:1px 7px;border-radius:8px;font-weight:600;text-transform:uppercase;letter-spacing:.4px;margin-bottom:3px}
+.tl-ev-desc{font-size:14.5px;margin-top:3px}
+.tl-ev-loc{font-size:12.5px;color:var(--text2);font-style:italic;margin-top:1px;font-family:-apple-system,sans-serif}
+
+/* Couleurs par type */
+.tt-naissance{background:#E8F5E9;color:#2E7D32}.tt-famille{background:#FFF3E0;color:#E65100}
+.tt-carriere{background:#E3F2FD;color:#1565C0}.tt-cicr{background:#FCE4EC;color:#C62828}
+.tt-guerre{background:#F3E5F5;color:#6A1B9A}.tt-correspondance{background:#FFF8E1;color:#F57F17}
+.tt-publication{background:#E0F7FA;color:#00695C}.tt-commemoration{background:#F1F8E9;color:#558B2F}
+.tt-other{background:var(--bg2);color:var(--text2)}
+
+/* ═══════════════════════════════════════════════════
+   SEARCH
+   ═══════════════════════════════════════════════════ */
+.search-box{
+  position:fixed;top:70px;left:50%;transform:translateX(-50%);width:560px;max-width:92vw;max-height:70vh;
+  background:var(--bg);border:1px solid var(--border);border-radius:12px;z-index:700;
+  box-shadow:0 16px 48px rgba(0,0,0,.2);display:none;flex-direction:column;
+}
+.search-box.open{display:flex}
+.search-box input{
+  width:100%;padding:14px 18px;font-size:15px;border:none;border-bottom:1px solid var(--border);
+  background:transparent;color:var(--text);font-family:-apple-system,sans-serif;outline:none;border-radius:12px 12px 0 0;
+}
+.search-results{overflow-y:auto;padding:6px;flex:1}
+.sr{padding:10px 14px;border-radius:var(--radius);cursor:pointer;transition:background .1s}
+.sr:hover{background:var(--accent-bg)}
+.sr-t{font-weight:600;font-family:-apple-system,sans-serif;font-size:13px;color:var(--accent)}
+.sr-e{font-size:12.5px;color:var(--text2);margin-top:2px}
+.sr-e mark{background:#FFF176;color:#333;padding:0 2px;border-radius:2px}
+
+/* ═══════════════════════════════════════════════════
+   LIGHTBOX
+   ═══════════════════════════════════════════════════ */
+.lightbox{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.92);display:flex;align-items:center;justify-content:center;z-index:800;cursor:pointer}
+.lightbox img{max-width:92vw;max-height:92vh;border-radius:8px}
+
+/* References search */
+.ref-input{width:100%;padding:10px 16px;font-size:14px;border:1px solid var(--border);border-radius:var(--radius);background:var(--bg2);color:var(--text);font-family:-apple-system,sans-serif;margin-bottom:16px;outline:none;position:sticky;top:0;z-index:5}
+.ref-input:focus{border-color:var(--accent)}
+
+/* ═══════════════════════════════════════════════════
+   RESPONSIVE
+   ═══════════════════════════════════════════════════ */
+@media(max-width:768px){
+  .sidebar{transform:translateX(-100%);width:280px}
+  .sidebar.open{transform:translateX(0)}
+  .hamburger{display:block}
+  .main{margin-left:0}
+  #content{padding:20px 16px}
+  .hero{flex-direction:column;gap:20px;padding:20px;text-align:center}
+  .hero img{width:140px}
+  .hero h1{font-size:2em}
+  .cards{grid-template-columns:repeat(2,1fr)}
+  .icon-grid{grid-template-columns:1fr}
+  .tl-ev{flex-direction:column;gap:2px}
+  .tl-ev-date{width:auto}
+  .ch-nav{flex-direction:column}
+}
+@media print{.sidebar,.hamburger,#progress,.side-tools,.search-box{display:none!important}.main{margin-left:0}}
+</style>
+</head>
+<body>
+
+<div id="progress"></div>
+<button class="hamburger" onclick="document.getElementById('sidebar').classList.toggle('open')">☰</button>
+
+<nav class="sidebar" id="sidebar">
+  <div class="side-head">
+    <h1>LOUIS APPIA</h1>
+    <p>Biographie par Roger et Nicolas Durand</p>
+  </div>
+  <div id="nav"></div>
+  <div class="side-tools">
+    <button onclick="toggleSearch()">🔍 Recherche</button>
+    <button onclick="toggleDark()" id="dbtn">🌙</button>
+  </div>
+</nav>
+
+<main class="main"><div id="content"></div></main>
+
+<div id="popups"></div>
+<div class="search-box" id="sbox">
+  <input id="sinput" placeholder="Rechercher dans la biographie… (Ctrl+K)" oninput="doSearch(this.value)">
+  <div class="search-results" id="sresults"></div>
+</div>
+
+<script>
+/* ═══════════════════════════════════════════════════
+   APP STATE
+   ═══════════════════════════════════════════════════ */
+let M = null;           // manifest
+let cache = {};         // cached markdown per file
+let searchIndex = [];   // {id, title, text}
+let currentId = null;
+
+/* ═══════════════════════════════════════════════════
+   BOOT
+   ═══════════════════════════════════════════════════ */
+async function boot() {
+  M = await (await fetch('manifest.json')).json();
+  buildNav();
+  const hash = location.hash.replace('#','');
+  go(hash || 'accueil');
+  window.addEventListener('popstate', () => go(location.hash.replace('#','') || 'accueil'));
+}
+
+/* ═══════════════════════════════════════════════════
+   NAVIGATION
+   ═══════════════════════════════════════════════════ */
+function buildNav() {
+  let h = '<a class="nav-item" data-id="accueil" onclick="go(\'accueil\')">🏠 Accueil</a>';
+  const groups = { intro:'Liminaires', chapitre:'Chapitres', annexe:'Annexes' };
+  for (const [gk, gl] of Object.entries(groups)) {
+    const items = M.chapters.filter(c => c.group === gk);
+    const sp = (M.specialPages||[]).filter(s => s.group === gk);
+    if (!items.length && !sp.length) continue;
+    h += `<div class="side-group-label">${gl}</div>`;
+    items.forEach(c => { h += `<a class="nav-item" data-id="${c.id}" onclick="go('${c.id}')">${c.label}</a>`; });
+    sp.forEach(s => { h += `<a class="nav-item" data-id="${s.id}" onclick="go('${s.id}')">${s.label}</a>`; });
+  }
+  document.getElementById('nav').innerHTML = h;
+}
+
+async function go(id) {
+  if (!id) id = 'accueil';
+  currentId = id;
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.toggle('active', n.dataset.id === id));
+  document.getElementById('sidebar').classList.remove('open');
+  window.scrollTo(0,0);
+
+  const el = document.getElementById('content');
+
+  if (id === 'accueil')       return el.innerHTML = renderAccueil();
+  if (id === 'iconographie')  return el.innerHTML = renderIcono();
+  if (id === 'frise')         { el.innerHTML = renderFrise(); initFrise(); return; }
+
+  // Find chapter in manifest
+  const ch = M.chapters.find(c => c.id === id);
+  if (!ch) { el.innerHTML = '<p>Page introuvable.</p>'; return; }
+
+  const md = await loadMd(ch.file);
+  const html = renderMd(md);
+
+  // word count
+  const wc = md.split(/\s+/).length;
+  let out = `<div class="word-count">${wc.toLocaleString('fr')} mots</div>`;
+  out += html;
+
+  // prev/next
+  const allIds = M.chapters.map(c => c.id);
+  const idx = allIds.indexOf(id);
+  out += '<div class="ch-nav">';
+  if (idx > 0) out += `<button onclick="go('${allIds[idx-1]}')">← ${M.chapters[idx-1].label}</button>`;
+  else out += '<span></span>';
+  if (idx < allIds.length-1) out += `<button onclick="go('${allIds[idx+1]}')">${M.chapters[idx+1].label} →</button>`;
+  out += '</div>';
+
+  el.innerHTML = out;
+
+  // If references page, add search box
+  if (id === 'references') {
+    const wrap = document.createElement('div');
+    wrap.innerHTML = '<input class="ref-input" placeholder="Filtrer les 330 documents…" oninput="filterRef(this.value)">';
+    el.insertBefore(wrap, el.children[1]);
+  }
+
+  history.replaceState(null, '', '#' + id);
+}
+
+/* ═══════════════════════════════════════════════════
+   FETCH MARKDOWN
+   ═══════════════════════════════════════════════════ */
+async function loadMd(file) {
+  if (cache[file]) return cache[file];
+  const r = await fetch('chapitres/' + file);
+  const text = await r.text();
+  cache[file] = text;
+  // index for search
+  const title = (text.match(/^#\s+(.+)$/m) || ['',''])[1];
+  const ch = M.chapters.find(c => c.file === file);
+  searchIndex.push({ id: ch ? ch.id : file, title: title || file, text });
+  return text;
+}
+
+// Preload all for search
+async function preloadAll() {
+  for (const ch of M.chapters) await loadMd(ch.file);
+}
+
+/* ═══════════════════════════════════════════════════
+   MARKDOWN → HTML
+   ═══════════════════════════════════════════════════ */
+function renderMd(md) {
+  // Remove \newpage
+  let s = md.replace(/\\newpage/g, '');
+
+  // 1. Extract footnote definitions
+  const fns = {};
+  s = s.replace(/^\[\^([^\]]+)\]:\s*(.+?)(?=\n\[\^|\n\n|$)/gm, (_, k, v) => {
+    fns[k] = v.trim();
+    return '';
+  });
+
+  // 2. Images: ![alt](path){ width=X }
+  s = s.replace(/!\[([^\]]*)\]\(images\/([^)]+)\)(?:\{[^}]*\})?/g,
+    (_, alt, file) => `<figure><img src="images/${file}" alt="${alt}" onclick="lightbox(this)"><figcaption>${alt}</figcaption></figure>`);
+  // fallback images without images/ prefix
+  s = s.replace(/!\[([^\]]*)\]\(([^)]+)\)(?:\{[^}]*\})?/g,
+    (_, alt, src) => `<figure><img src="${src}" alt="${alt}" onclick="lightbox(this)"><figcaption>${alt}</figcaption></figure>`);
+
+  // 3. Footnote references → popover
+  s = s.replace(/\[\^([^\]]+)\](?!:)/g, (_, k) => {
+    const txt = (fns[k]||'').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+    const num = k.includes('_') ? k.split('_').pop() : k;
+    return `<span class="fn-ref" data-fn="${txt}" onclick="showFn(this)">${num}</span>`;
+  });
+
+  // 4. Headers
+  s = s.replace(/^### (.+)$/gm, '<h3>$1</h3>');
+  s = s.replace(/^## (.+)$/gm, '<h2>$1</h2>');
+  s = s.replace(/^# (.+)$/gm, '<h1>$1</h1>');
+
+  // 5. Bold/italic
+  s = s.replace(/\*\*\*(.+?)\*\*\*/g, '<strong><em>$1</em></strong>');
+  s = s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  s = s.replace(/\*(.+?)\*/g, '<em>$1</em>');
+
+  // 6. Lists
+  s = s.replace(/^- (.+)$/gm, '<li>$1</li>');
+  s = s.replace(/((?:<li>.*<\/li>\n?)+)/g, '<ul>$1</ul>');
+
+  // 7. Person links (only known persons from manifest)
+  if (M && M.persons) {
+    const names = Object.keys(M.persons).sort((a,b) => b.length - a.length);
+    for (const name of names) {
+      const esc = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      // Only replace in text, not in tags or attributes
+      const re = new RegExp(`(?<![">])\\b${esc}\\b(?![^<]*>)`, 'g');
+      let count = 0;
+      s = s.replace(re, (match) => {
+        if (count++ >= 2) return match; // max 2 per chapter
+        return `<span class="person-link" onclick="showPerson('${name.replace(/'/g,"\\'")}')">${match}</span>`;
+      });
+    }
+  }
+
+  // 8. Paragraphs
+  const lines = s.split('\n');
+  let out = '', inP = false;
+  for (const line of lines) {
+    const t = line.trim();
+    if (!t) { if (inP) { out += '</p>\n'; inP = false; } continue; }
+    if (/^<(h[123]|ul|li|\/ul|figure|div|button)/.test(t)) {
+      if (inP) { out += '</p>\n'; inP = false; }
+      out += t + '\n';
+    } else {
+      if (!inP) { out += '<p>'; inP = true; }
+      out += (inP && out.endsWith('<p>') ? '' : ' ') + t;
+    }
+  }
+  if (inP) out += '</p>';
+
+  return out;
+}
+
+/* ═══════════════════════════════════════════════════
+   ACCUEIL
+   ═══════════════════════════════════════════════════ */
+function renderAccueil() {
+  return `
+  <div class="hero">
+    <img src="images/frontispice_appia_decorations.jpeg" alt="Louis Appia">
+    <div>
+      <h1>Louis Appia</h1>
+      <p class="sub">1818 – 1898</p>
+      <p class="desc">Médecin, humaniste et cofondateur de la Croix-Rouge</p>
+      <p class="auth">par <strong>Roger Durand</strong></p>
+    </div>
+  </div>
+  <p style="text-align:center;font-size:1.05em;max-width:640px;margin:0 auto 28px">Cette biographie retrace le parcours exceptionnel du Docteur Louis Appia, l'un des cinq fondateurs du Comité international de la Croix-Rouge, à travers 14 chapitres et plus de 330 documents sources.</p>
+  <div class="cards">
+    <div class="card" onclick="go('ch01')"><div class="n">14</div><div class="l">Chapitres</div></div>
+    <div class="card" onclick="go('frise')"><div class="n">139</div><div class="l">Événements</div></div>
+    <div class="card" onclick="go('iconographie')"><div class="n">11</div><div class="l">Images</div></div>
+    <div class="card" onclick="go('references')"><div class="n">330</div><div class="l">Documents</div></div>
+  </div>
+  <figure style="max-width:560px;margin:28px auto">
+    <img src="images/fondateurs_cicr_1863.jpeg" alt="Les cinq fondateurs" onclick="lightbox(this)" style="max-width:100%">
+    <figcaption>Les cinq fondateurs du CICR, Genève, 1863 : Moynier, Dufour, Dunant, Appia, Maunoir.</figcaption>
+  </figure>
+  <button class="start-btn" onclick="go('avant-propos')">Commencer la lecture</button>`;
+}
+
+/* ═══════════════════════════════════════════════════
+   ICONOGRAPHIE
+   ═══════════════════════════════════════════════════ */
+function renderIcono() {
+  let h = '<h1>Iconographie</h1><p style="color:var(--text2);text-align:center;margin-bottom:24px">Cliquez sur une image pour l\'agrandir.</p><div class="icon-grid">';
+  for (const img of M.images) {
+    h += `<div class="icon-card">
+      <img src="images/${img.file}" alt="${img.title}" onclick="lightbox(this)">
+      <h3>${img.title}</h3>
+      <p>${img.desc}</p>
+    </div>`;
+  }
+  return h + '</div>';
+}
+
+/* ═══════════════════════════════════════════════════
+   FRISE CHRONOLOGIQUE
+   ═══════════════════════════════════════════════════ */
+let timelineData = null;
+
+function renderFrise() {
+  return `<h1>Frise chronologique</h1>
+  <p style="color:var(--text2);text-align:center;margin-bottom:12px">139 événements de 1811 à 2024.</p>
+  <div class="tl-filters" id="tl-filters">
+    <span class="tl-f on" data-f="all">Tous</span>
+    <span class="tl-f" data-f="Naissance">Naissance</span>
+    <span class="tl-f" data-f="Famille">Famille</span>
+    <span class="tl-f" data-f="Carrière">Carrière</span>
+    <span class="tl-f" data-f="CICR">CICR</span>
+    <span class="tl-f" data-f="Guerre">Guerre</span>
+    <span class="tl-f" data-f="Correspondance">Correspondance</span>
+    <span class="tl-f" data-f="Publication">Publication</span>
+    <span class="tl-f" data-f="Commémoration">Commémoration</span>
+  </div>
+  <div id="tl-body"></div>`;
+}
+
+async function initFrise() {
+  if (!timelineData) {
+    try {
+      timelineData = await (await fetch('timeline_merged.json')).json();
+      // sort
+      timelineData.forEach(e => { e._y = parseInt((e.date||'').match(/\d{4}/)?.[0]) || 9999; });
+      timelineData.sort((a,b) => a._y - b._y || (a.date||'').localeCompare(b.date||''));
+    } catch(e) {
+      document.getElementById('tl-body').innerHTML = '<p>Fichier timeline_merged.json introuvable.</p>';
+      return;
+    }
+  }
+  drawTimeline('all');
+  document.querySelectorAll('.tl-f').forEach(b => b.onclick = () => {
+    document.querySelectorAll('.tl-f').forEach(x => x.classList.remove('on'));
+    b.classList.add('on');
+    drawTimeline(b.dataset.f);
+  });
+}
+
+function drawTimeline(filter) {
+  const evts = filter === 'all' ? timelineData : timelineData.filter(e => classify(e.type_evenement) === filter);
+  let h = '', lastY = null;
+  // Images to show at certain years
+  const yImg = {1818:'frontispice_appia_decorations.jpeg',1859:'dessin_solferino_1859.jpeg',1863:'fondateurs_cicr_1863.jpeg',1864:'ambulance_hopital_campagne.png',1870:'scene_militaire_troupes.png'};
+  const yShown = {};
+  for (const e of evts) {
+    if (e._y !== lastY) { lastY = e._y; h += `<div class="tl-year">${e._y}</div>`; }
+    const cat = classify(e.type_evenement);
+    const css = 'tt-' + cat.toLowerCase().replace(/[^a-z]/g,'');
+    let img = '';
+    if (yImg[e._y] && !yShown[e._y]) { img = `<img src="images/${yImg[e._y]}" style="max-width:180px;border-radius:6px;margin-top:6px;box-shadow:0 2px 8px var(--shadow)">`; yShown[e._y] = true; }
+    h += `<div class="tl-ev">
+      <div class="tl-ev-date">${e.date||''}</div>
+      <div class="tl-ev-body">
+        <span class="tl-ev-type ${css}">${e.type_evenement||'Autre'}</span>
+        <div class="tl-ev-desc">${e.description||''}</div>
+        ${e.lieu ? `<div class="tl-ev-loc">📍 ${e.lieu}</div>` : ''}
+        ${img}
+      </div>
+    </div>`;
+  }
+  document.getElementById('tl-body').innerHTML = h;
+}
+
+function classify(t) {
+  if (!t) return 'other';
+  t = t.toLowerCase();
+  if (t.includes('naissance')||t.includes('décès')) return 'Naissance';
+  if (t.includes('famille')||t.includes('mariage')) return 'Famille';
+  if (t.includes('carrière')||t.includes('médic')) return 'Carrière';
+  if (t.includes('cicr')||t.includes('croix')||t.includes('humanitaire')||t.includes('convention')||t.includes('conférence')) return 'CICR';
+  if (t.includes('guerre')||t.includes('mission')||t.includes('milit')) return 'Guerre';
+  if (t.includes('correspond')||t.includes('lettre')) return 'Correspondance';
+  if (t.includes('publication')||t.includes('ouvrage')) return 'Publication';
+  if (t.includes('commémor')||t.includes('hommage')||t.includes('séminaire')) return 'Commémoration';
+  return 'other';
+}
+
+/* ═══════════════════════════════════════════════════
+   FOOTNOTE POPUP
+   ═══════════════════════════════════════════════════ */
+function showFn(el) {
+  closePop();
+  const txt = el.getAttribute('data-fn');
+  if (!txt) return;
+  const r = el.getBoundingClientRect();
+  const d = document.createElement('div');
+  d.className = 'fn-popup';
+  d.innerHTML = txt + '<span class="fn-close" onclick="closePop()">&times;</span>';
+  d.style.top = (r.bottom + window.scrollY + 6) + 'px';
+  d.style.left = Math.min(r.left, window.innerWidth - 440) + 'px';
+  document.getElementById('popups').appendChild(d);
+}
+
+/* ═══════════════════════════════════════════════════
+   PERSON MODAL
+   ═══════════════════════════════════════════════════ */
+function showPerson(name) {
+  closePop();
+  const p = M.persons[name];
+  if (!p) return;
+  document.getElementById('popups').innerHTML = `
+    <div class="overlay" onclick="closePop()"></div>
+    <div class="modal">
+      <span class="m-close" onclick="closePop()">&times;</span>
+      <h2>${name}</h2>
+      <div class="m-dates">${p.dates||''}</div>
+      <div class="m-role">${p.role||''}</div>
+      <div class="m-bio">${p.bio||''}</div>
+    </div>`;
+}
+
+function closePop() { document.getElementById('popups').innerHTML = ''; }
+
+/* ═══════════════════════════════════════════════════
+   LIGHTBOX
+   ═══════════════════════════════════════════════════ */
+function lightbox(img) {
+  const d = document.createElement('div');
+  d.className = 'lightbox';
+  d.onclick = () => d.remove();
+  d.innerHTML = `<img src="${img.src}" alt="${img.alt}">`;
+  document.body.appendChild(d);
+}
+
+/* ═══════════════════════════════════════════════════
+   SEARCH
+   ═══════════════════════════════════════════════════ */
+const STOP = new Set(['le','la','les','un','une','des','de','du','d','l','et','en','à','a','au','aux','ce','ces','cet','cette','il','elle','ils','elles','on','nous','vous','se','son','sa','ses','leur','leurs','qui','que','qu','ne','pas','par','pour','sur','dans','avec','est','sont','été','était','ont','avait','fait','plus','mais','ou','où','si','ni','car','donc','dont','comme','tout','très','bien','aussi','même','entre','autre','autres','après','avant','sans','sous','chez','vers','peu','trop','moins','lors','peut','être','avoir','faire','dit','deux','trois','ans','alors','ainsi']);
+
+function toggleSearch() {
+  const sb = document.getElementById('sbox');
+  if (sb.classList.contains('open')) { sb.classList.remove('open'); return; }
+  sb.classList.add('open');
+  preloadAll().then(() => {});
+  setTimeout(() => document.getElementById('sinput').focus(), 50);
+}
+
+function doSearch(q) {
+  const res = document.getElementById('sresults');
+  if (q.length < 3) { res.innerHTML = '<div style="padding:14px;color:var(--text2);text-align:center">Tapez au moins 3 caractères…</div>'; return; }
+  // Filter stop words
+  const words = q.toLowerCase().split(/\s+/).filter(w => w.length > 2 && !STOP.has(w));
+  if (!words.length) { res.innerHTML = '<div style="padding:14px;color:var(--text2);text-align:center">Termes trop courants.</div>'; return; }
+  let html = '', cnt = 0;
+  for (const entry of searchIndex) {
+    const low = entry.text.toLowerCase();
+    // Check all words match
+    if (!words.every(w => low.includes(w))) continue;
+    // Find first match excerpt
+    const idx = low.indexOf(words[0]);
+    const start = Math.max(0, idx - 50);
+    const end = Math.min(entry.text.length, idx + 80);
+    let ex = entry.text.substring(start, end).replace(/\n/g, ' ');
+    // highlight all words
+    for (const w of words) {
+      const re = new RegExp('(' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+      ex = ex.replace(re, '<mark>$1</mark>');
+    }
+    if (start > 0) ex = '…' + ex;
+    if (end < entry.text.length) ex += '…';
+    html += `<div class="sr" onclick="document.getElementById('sbox').classList.remove('open');go('${entry.id}')">
+      <div class="sr-t">${entry.title}</div>
+      <div class="sr-e">${ex}</div>
+    </div>`;
+    if (++cnt >= 15) break;
+  }
+  if (!cnt) html = '<div style="padding:14px;color:var(--text2);text-align:center">Aucun résultat.</div>';
+  res.innerHTML = html;
+}
+
+/* ═══════════════════════════════════════════════════
+   REFERENCE FILTER
+   ═══════════════════════════════════════════════════ */
+function filterRef(q) {
+  q = q.toLowerCase();
+  document.querySelectorAll('#content p').forEach(p => {
+    p.style.display = (!q || p.textContent.toLowerCase().includes(q)) ? '' : 'none';
+  });
+}
+
+/* ═══════════════════════════════════════════════════
+   DARK MODE
+   ═══════════════════════════════════════════════════ */
+function toggleDark() {
+  const on = document.documentElement.getAttribute('data-theme') === 'dark';
+  document.documentElement.setAttribute('data-theme', on ? '' : 'dark');
+  document.getElementById('dbtn').textContent = on ? '🌙' : '☀️';
+  localStorage.setItem('theme', on ? 'light' : 'dark');
+}
+if (localStorage.getItem('theme') === 'dark') {
+  document.documentElement.setAttribute('data-theme', 'dark');
+  document.getElementById('dbtn').textContent = '☀️';
+}
+
+/* ═══════════════════════════════════════════════════
+   PROGRESS BAR
+   ═══════════════════════════════════════════════════ */
+window.addEventListener('scroll', () => {
+  const h = document.documentElement.scrollHeight - window.innerHeight;
+  document.getElementById('progress').style.width = (h > 0 ? window.scrollY / h * 100 : 0) + '%';
+});
+
+/* ═══════════════════════════════════════════════════
+   KEYBOARD
+   ═══════════════════════════════════════════════════ */
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closePop(); document.getElementById('sbox').classList.remove('open'); }
+  if ((e.ctrlKey || e.metaKey) && e.key === 'k') { e.preventDefault(); toggleSearch(); }
+});
+
+/* ═══════════════════════════════════════════════════
+   LAUNCH
+   ═══════════════════════════════════════════════════ */
+boot();
+</script>
+</body>
+</html>

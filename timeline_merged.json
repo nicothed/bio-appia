@@ -1,0 +1,975 @@
+[
+  {
+    "date": "10 octobre 1849",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Jussy (GE)",
+    "description": "Lettre de Louis Appia au maire Jean-Louis Micheli confirmant sa volonté de venir à Jussy comme médecin. Engagement formel.",
+    "source": "Doc privé : 18491010_LA à Micheli confirmation"
+  },
+  {
+    "date": "13 octobre 1818",
+    "type_evenement": "Naissance",
+    "lieu": "Hanau, Hesse",
+    "description": "Naissance de Louis Paul Amédée Appia à Hanau. Fils aîné de Paul Joseph Appia (pasteur évangélique) et de Caroline Develay. Troisième de six enfants.",
+    "source": "Wikipedia ; louis-appia.ch"
+  },
+  {
+    "date": "18 mai 1849",
+    "type_evenement": "Correspondance",
+    "lieu": "Francfort / Torre Pellice",
+    "description": "Lettre de Caroline Appia Develay à Louis et ses enfants depuis Francfort. Elle décrit les troubles révolutionnaires de 1848-1849 en Allemagne, les mouvements de troupes, l'évacuation de la famille. Mentionne les Hessois et Prussiens, la situation à Hanau, les plans de départ vers Genève.",
+    "source": "Doc privé : 18490518_Caroline Appia Develay"
+  },
+  {
+    "date": "1811",
+    "type_evenement": "Famille",
+    "lieu": "Hanau, Hesse",
+    "description": "Paul Joseph Appia, père de Louis, devient pasteur évangélique à Hanau près de Francfort.",
+    "source": "Wikipedia ; louis-appia.ch"
+  },
+  {
+    "date": "1818-10-13",
+    "type_evenement": "Naissance/Famille",
+    "lieu": "Hanau",
+    "description": "Naissance de Louis-Paul-Amédée Appia à Hanau (Hesse-Nassau)",
+    "source": "Inféré des documents biographiques"
+  },
+  {
+    "date": "1836-11-07",
+    "type_evenement": "Formation",
+    "lieu": "Genève",
+    "description": "Débuts des études préparatoires à Genève",
+    "source": "Inféré des documents biographiques"
+  },
+  {
+    "date": "1836",
+    "type_evenement": "Formation",
+    "lieu": "Genève",
+    "description": "Louis arrive à Genève pour suivre l'Académie. Il y passe son baccalauréat ès lettres en 1837.",
+    "source": "louis-appia.ch"
+  },
+  {
+    "date": "1837-12-07",
+    "type_evenement": "Formation",
+    "lieu": "Genève",
+    "description": "Baccalauréat ès lettres",
+    "source": "Inféré des documents biographiques"
+  },
+  {
+    "date": "1837",
+    "type_evenement": "Formation",
+    "lieu": "Genève",
+    "description": "Obtention du baccalauréat ès lettres à Genève.",
+    "source": "louis-appia.ch"
+  },
+  {
+    "date": "1838-08-04",
+    "type_evenement": "Formation",
+    "lieu": "Genève",
+    "description": "Baccalauréat ès sciences",
+    "source": "Inféré des documents biographiques"
+  },
+  {
+    "date": "1838-11-11",
+    "type_evenement": "Formation",
+    "lieu": "Heidelberg",
+    "description": "Début des études de médecine à Heidelberg",
+    "source": "Inféré des documents biographiques"
+  },
+  {
+    "date": "1838",
+    "type_evenement": "Formation",
+    "lieu": "Genève / Heidelberg",
+    "description": "Obtention du baccalauréat ès sciences à Genève. Départ pour l'université de Heidelberg pour des études de médecine.",
+    "source": "louis-appia.ch ; Wikipedia"
+  },
+  {
+    "date": "1843-05-21",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Jussy",
+    "description": "Procès-verbal de la Société du Médecin de Jussy, 21 mai 1843",
+    "source": "10006"
+  },
+  {
+    "date": "1843-05",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Jussy",
+    "description": "Installation comme médecin à Jussy",
+    "source": "Inféré des documents biographiques"
+  },
+  {
+    "date": "1844",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Francfort-sur-le-Main",
+    "description": "Louis fonde avec deux confrères un dispensaire ophtalmologique à Francfort. Spécialisation en ophtalmologie.",
+    "source": "louis-appia.ch"
+  },
+  {
+    "date": "1848",
+    "type_evenement": "Carrière médicale",
+    "lieu": null,
+    "description": "Lettre de LA à Georges Appia, 1848",
+    "source": "10007"
+  },
+  {
+    "date": "1849-05-18",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Russie",
+    "description": "Lettre de Caroline Appia Develay à Louis Appia, 18 mai 1849",
+    "source": "10008"
+  },
+  {
+    "date": "1849-05-29",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Genève",
+    "description": "Lettre de LA à sa mère Caroline Appia, 29 mai 1849",
+    "source": "10009"
+  },
+  {
+    "date": "1849-09-03",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Jussy",
+    "description": "Lettre de LA au pasteur Roehrich et au maire Micheli, 3 septembre 1849",
+    "source": "10010"
+  },
+  {
+    "date": "1849-09-29",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Jussy",
+    "description": "Rapport d'expertise de Roy, 29 septembre 1849",
+    "source": "10011"
+  },
+  {
+    "date": "1849-10-10",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Jussy",
+    "description": "Lettre de confirmation de LA au maire Micheli, 10 octobre 1849",
+    "source": "10012"
+  },
+  {
+    "date": "1849",
+    "type_evenement": "Famille",
+    "lieu": "Hanau / Genève",
+    "description": "Mort du père de Louis, le pasteur Paul Joseph Appia. Louis voyage avec sa mère Caroline vers Genève.",
+    "source": "Wikipedia"
+  },
+  {
+    "date": "1850-03-03",
+    "type_evenement": "Carrière médicale",
+    "lieu": null,
+    "description": "Lettre de LA au maire Micheli sur les tarifs, 3 mars 1850",
+    "source": "10013"
+  },
+  {
+    "date": "1850-03-09",
+    "type_evenement": "Correspondance",
+    "lieu": null,
+    "description": "Document trop court, 9 mars 1850",
+    "source": "10014"
+  },
+  {
+    "date": "1850-12-30",
+    "type_evenement": "Carrière médicale",
+    "lieu": null,
+    "description": "Carnet de LA à sa sœur Marie Claparède, 30 décembre 1850",
+    "source": "10015"
+  },
+  {
+    "date": "1853",
+    "type_evenement": "Famille",
+    "lieu": "Genève",
+    "description": "Mariage de Louis Appia avec Anna Caroline Lasserre (1834-1886), issue d'une famille protestante réfugiée à Genève. Ils s'installent en ville de Genève, près de la cathédrale Saint-Pierre. Début de l'amitié avec le chirurgien Théodore Maunoir.",
+    "source": "Wikipedia ; louis-appia.ch"
+  },
+  {
+    "date": "1855-09-22",
+    "type_evenement": "Carrière médicale",
+    "lieu": null,
+    "description": "Procès-verbal du Conseil de santé, 22 septembre 1855",
+    "source": "10016"
+  },
+  {
+    "date": "1856-07-20",
+    "type_evenement": "Carrière médicale",
+    "lieu": null,
+    "description": "Lettre de LA à Henry Lombard sur la naissance de Paul, 20 juillet 1856",
+    "source": "10017"
+  },
+  {
+    "date": "1856-07-20",
+    "type_evenement": "Naissance/Famille",
+    "lieu": null,
+    "description": "Lettre de LA à Henry Lombard, 20 juillet 1856",
+    "source": "10018"
+  },
+  {
+    "date": "1858-08-08",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Genève",
+    "description": "Lettre de LA à Georges Appia sur le décès de Cécile, 8 août 1858",
+    "source": "10019"
+  },
+  {
+    "date": "1858",
+    "type_evenement": "Famille",
+    "lieu": "Genève",
+    "description": "Naissance d'Hélène Appia (1858-1944).",
+    "source": "louis-appia.ch ; Wikipedia"
+  },
+  {
+    "date": "1858",
+    "type_evenement": "Publication",
+    "lieu": "Genève",
+    "description": "Suite à l'attentat d'Orsini contre Napoléon III, Louis Appia écrit un traité sur les blessures causées par les armes à feu.",
+    "source": "Wikipedia"
+  },
+  {
+    "date": "1859-01-10",
+    "type_evenement": "Naissance/Famille",
+    "lieu": "Genève",
+    "description": "Lettre de félicitations de LA à son frère Georges, 10 janvier 1859",
+    "source": "10020"
+  },
+  {
+    "date": "1859-07-31",
+    "type_evenement": "Publications",
+    "lieu": "Genève",
+    "description": "Article de presse du Journal de Genève, 31 juillet et 3 août 1859",
+    "source": "10021"
+  },
+  {
+    "date": "1859-09-16",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Italie",
+    "description": "Lettre de LA à son frère Georges sur les secours aux blessés d'Italie, 16 septembre 1859",
+    "source": "10022"
+  },
+  {
+    "date": "1859-09-16",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Italie",
+    "description": "Lettre sur les secours aux blessés en Italie (après Solferino)",
+    "source": "Inféré des documents biographiques"
+  },
+  {
+    "date": "1859-09-20",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Italie",
+    "description": "Rapport de LA à Adrien Naville sur la collecte de secours, 20 septembre 1859",
+    "source": "10023"
+  },
+  {
+    "date": "1859-09-23",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Paris",
+    "description": "Lettre d'Elie de Beaumont à LA, 23 septembre 1859",
+    "source": "10024"
+  },
+  {
+    "date": "1859-10-20",
+    "type_evenement": "Carrière médicale",
+    "lieu": null,
+    "description": "Lettre médicale de LA à son frère Georges sur la grossesse, 20 octobre 1859",
+    "source": "10025"
+  },
+  {
+    "date": "1859",
+    "type_evenement": "Innovation médicale",
+    "lieu": "Genève",
+    "description": "Description technique d'un appareil innovant pour immobiliser les fractures : application du caoutchouc vulcanisé à la chirurgie. L'appareil permet le transport des blessés avec membres fracturés. Collaboration avec le Dr Gariel.",
+    "source": "Doc privé : 1859_Description appareil fractures"
+  },
+  {
+    "date": "1859",
+    "type_evenement": "Naissance/Famille",
+    "lieu": null,
+    "description": "Contact avec la question des secours aux blessés après Solferino",
+    "source": "Inféré des documents biographiques"
+  },
+  {
+    "date": "1860-01-03",
+    "type_evenement": "Carrière médicale",
+    "lieu": null,
+    "description": "Lettre rétrospective de LA à son frère Georges, 3 janvier 1860",
+    "source": "10027"
+  },
+  {
+    "date": "1860-01-03",
+    "type_evenement": "Naissance/Famille",
+    "lieu": null,
+    "description": "Lettre de LA à son frère Georges (version 2), 3 janvier 1860",
+    "source": "10028"
+  },
+  {
+    "date": "1860-01-03",
+    "type_evenement": "Naissance/Famille",
+    "lieu": null,
+    "description": "Lettre de LA à son frère Georges (version 3), 3 janvier 1860",
+    "source": "10029"
+  },
+  {
+    "date": "1860",
+    "type_evenement": "Famille",
+    "lieu": "Genève",
+    "description": "Naissance de Marie Appia (1860-1914).",
+    "source": "louis-appia.ch"
+  },
+  {
+    "date": "1861",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Genève",
+    "description": "Louis devient membre de la Société médicale de Genève.",
+    "source": "Wikipedia"
+  },
+  {
+    "date": "1862",
+    "type_evenement": "Engagement humanitaire",
+    "lieu": "Genève",
+    "description": "Louis conseille Henri Dunant sur les questions médicales lors de la rédaction d'Un souvenir de Solférino. Naissance d'Adolphe Appia (1862-1928), futur architecte et pionnier de la scénographie moderne.",
+    "source": "Wikipedia ; louis-appia.ch"
+  },
+  {
+    "date": "1862",
+    "type_evenement": "Croix-Rouge/CICR",
+    "lieu": "Genève",
+    "description": "Implication active aux débuts de la Croix-Rouge Internationale",
+    "source": "Inféré des documents biographiques"
+  },
+  {
+    "date": "1864-03-15",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Russie",
+    "description": "Lettre de LA à Anna depuis Broaker, 13 avril 1864",
+    "source": "10030"
+  },
+  {
+    "date": "1864-03-26",
+    "type_evenement": "Croix-Rouge/CICR",
+    "lieu": "Russie",
+    "description": "Lettre de mission de LA à Gustave Moynier, 26 mars 1864",
+    "source": "10031"
+  },
+  {
+    "date": "1864-03-28",
+    "type_evenement": "Croix-Rouge/CICR",
+    "lieu": "Genève",
+    "description": "Lettre de LA à Anna sur les rencontres à Berlin, 28 mars 1864",
+    "source": "10032"
+  },
+  {
+    "date": "1864-03-29",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Russie",
+    "description": "Lettre de LA depuis Gravenstein relatant les débuts de la canonnade, 29 mars 1864",
+    "source": "10033"
+  },
+  {
+    "date": "1864-03-30",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Broaker",
+    "description": "Lettre de LA depuis Broaker sur la visite des lazarets, 30 mars 1864",
+    "source": "10034"
+  },
+  {
+    "date": "1864-03",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Schleswig",
+    "description": "Mission en Schleswig-Holstein durant la Guerre des Duchés (mars-avril)",
+    "source": "Inféré des documents biographiques"
+  },
+  {
+    "date": "1864-04-01",
+    "type_evenement": "Croix-Rouge/CICR",
+    "lieu": "Flensbourg",
+    "description": "Lettre de LA depuis Flensbourg sur les hôpitaux, 1er avril 1864",
+    "source": "10035"
+  },
+  {
+    "date": "1864-04-02",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Gravenstein",
+    "description": "Lettre de LA depuis Gravenstein sur la route vers Westerschnabek, 2 avril 1864",
+    "source": "10036"
+  },
+  {
+    "date": "1864-04-02",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Düppel",
+    "description": "Lettre de LA depuis Westerschnabek sur les observations médicales, 2 avril 1864",
+    "source": "10037"
+  },
+  {
+    "date": "1864-04-03",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Russie",
+    "description": "Lettre de LA depuis Westerschnabek sur la canonnade et l'engagement, 3 avril 1864",
+    "source": "10038"
+  },
+  {
+    "date": "1864-04-04",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Flensbourg",
+    "description": "Lettre de LA à Gustave Moynier sur l'achat d'eau de Seltz, 7 avril 1864",
+    "source": "10039"
+  },
+  {
+    "date": "1864-04-06",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Flensbourg",
+    "description": "Lettre de LA depuis Flensbourg reflétant la fatigue de mission, 6 avril 1864",
+    "source": "10040"
+  },
+  {
+    "date": "1864-04-07",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Flensbourg",
+    "description": "Lettre de Louis Appia à Anna Appia, Flensbourg, 6 avril 1864",
+    "source": "10041"
+  },
+  {
+    "date": "1864-04-09",
+    "type_evenement": "Croix-Rouge/CICR",
+    "lieu": "Flensbourg",
+    "description": "Lettre de Louis Appia, Kolding, 9 avril 1864",
+    "source": "10042"
+  },
+  {
+    "date": "1864-04-10",
+    "type_evenement": "Croix-Rouge/CICR",
+    "lieu": "Genève",
+    "description": "Lettre de Louis Appia à Gustave Moynier, Flensbourg, 10 avril 1864",
+    "source": "10044"
+  },
+  {
+    "date": "1864-04-11",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Schleswig",
+    "description": "Lettre de Louis Appia, Broaker, 11 avril 1864",
+    "source": "10045"
+  },
+  {
+    "date": "1864-04-12",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Russie",
+    "description": "Lettre de Louis Appia à Gustave Moynier, Broaker, 12 avril 1864",
+    "source": "10046"
+  },
+  {
+    "date": "1864-04-13",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Russie",
+    "description": "Lettre de Louis Appia à Anna Appia, Broaker, 13 avril 1864",
+    "source": "10047"
+  },
+  {
+    "date": "1864-04-19",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Russie",
+    "description": "Lettre de Louis Appia à Anna Appia, Broaker, 19 avril 1864",
+    "source": "10048"
+  },
+  {
+    "date": "1864-04-19",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Russie",
+    "description": "Lettre de Louis Appia à Anna Appia, Düppel et Sonderbourg, 19 avril 1864",
+    "source": "10049"
+  },
+  {
+    "date": "1864-04-21",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Flensbourg",
+    "description": "Lettre de Louis Appia à Anna Appia, Flensbourg, 21 avril 1864",
+    "source": "10050"
+  },
+  {
+    "date": "1864-04-21",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Flensbourg",
+    "description": "Lettre de Louis Appia, Flensbourg, 27 avril 1864",
+    "source": "10051"
+  },
+  {
+    "date": "1864-04-27",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Flensbourg",
+    "description": "18640427_Flensbourg_fr_Lettres_Schleswig_.docx",
+    "source": "10052"
+  },
+  {
+    "date": "1864-04-27",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Flensbourg",
+    "description": "Lettre de Louis Appia à Anna Appia, Broaker et Flensbourg, 27 avril 1864",
+    "source": "10053"
+  },
+  {
+    "date": "1864-04-30",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Flensbourg",
+    "description": "Lettre de Louis Appia à Anna Appia, Francfort, 30 avril 1864",
+    "source": "10054"
+  },
+  {
+    "date": "1864-06-04",
+    "type_evenement": "Correspondance",
+    "lieu": null,
+    "description": "Correspondance sans contenu textuel",
+    "source": "10055"
+  },
+  {
+    "date": "1865-03-28",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Flensbourg",
+    "description": "Lettre de Louis Appia à Anna Appia, Berlin et Flensbourg, 28 mars 1865",
+    "source": "10056"
+  },
+  {
+    "date": "1865-08-14",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Genève",
+    "description": "Lettre de Louis Appia à Georges Appia, Genève, 14 août 1865",
+    "source": "10057"
+  },
+  {
+    "date": "1866-07-06",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Italie",
+    "description": "Lettre de Louis Appia à Paul Appia, Turin, 7 juillet 1866",
+    "source": "10059"
+  },
+  {
+    "date": "1866-08-16",
+    "type_evenement": "Naissance/Famille",
+    "lieu": "Genève",
+    "description": "Lettre de Louis Appia au pasteur Jean-Pierre Meille, Genève, 16 août 1866",
+    "source": "10060"
+  },
+  {
+    "date": "1866",
+    "type_evenement": "Mission CICR",
+    "lieu": "Bezzecca, Italie",
+    "description": "Louis repart comme délégué de la Croix-Rouge de Milan avec son frère Georges (pasteur à Torre Pellice). Ils portent secours aux blessés de l'armée de Garibaldi à Bezzecca. Publication ultérieure : 'Les blessés de la bataille de Bezzecca'.",
+    "source": "Wikipedia ; Musée protestant"
+  },
+  {
+    "date": "1867-02-17",
+    "type_evenement": "Décès",
+    "lieu": "Paris",
+    "description": "Lettre de Louis Appia à ses enfants Paul, Hélène, Marie et Adolphe, Paris, 17 février 1867",
+    "source": "10062"
+  },
+  {
+    "date": "1867",
+    "type_evenement": "Fonction CICR",
+    "lieu": "Genève",
+    "description": "Louis Appia reprend le poste de secrétaire du CICR quand Henri Dunant quitte le Comité. Le Comité se réunit 3 à 4 fois par mois chez lui.",
+    "source": "Wikipedia"
+  },
+  {
+    "date": "1867",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Genève",
+    "description": "Lettre de Louis Appia à Georges Appia, Genève, 1867",
+    "source": "10061"
+  },
+  {
+    "date": "1870-08-21",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Genève",
+    "description": "Lettre de Louis Ferrière à Louise Appia, Genève, 21 août 1870",
+    "source": "10063"
+  },
+  {
+    "date": "1870-1871",
+    "type_evenement": "Mission CICR",
+    "lieu": "France / Allemagne",
+    "description": "Guerre franco-prussienne. Louis Appia est de nouveau actif comme délégué déployé sur le terrain.",
+    "source": "Wikipedia"
+  },
+  {
+    "date": "1870-1871",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "France",
+    "description": "Missions humanitaires durant la Guerre franco-prussienne",
+    "source": "Inféré des documents biographiques"
+  },
+  {
+    "date": "1871-02-18",
+    "type_evenement": "Missions humanitaires",
+    "lieu": "Genève",
+    "description": "Lettre de Georges Appia à Louis Appia, Londres, 18 février 1871",
+    "source": "10064"
+  },
+  {
+    "date": "1871-11-03",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Genève",
+    "description": "Lettre de Louis Appia à Georges Appia, Genève, 3 novembre 1871",
+    "source": "10065"
+  },
+  {
+    "date": "1872",
+    "type_evenement": "Mission diplomatique",
+    "lieu": "Le Caire, Égypte",
+    "description": "Louis se rend au Caire pour convaincre le vice-roi Ismaïl Pacha d'adhérer à la Convention de Genève. Il prévoit d'ouvrir un hôpital ophtalmologique et de conseiller les services d'hygiène de l'armée égyptienne. Aide à la création de la première société Croix-Rouge non européenne.",
+    "source": "Wikipedia ; Doc privé : 2018014_Lettres Raoul Pictet"
+  },
+  {
+    "date": "1873-08-18",
+    "type_evenement": "Correspondance",
+    "lieu": "Genève",
+    "description": "Lettre de Louis Appia à Marie Claparède Appia, Genève, 18 août 1873",
+    "source": "10066"
+  },
+  {
+    "date": "1873",
+    "type_evenement": "Mission diplomatique",
+    "lieu": "Le Caire / Genève",
+    "description": "Retour d'Égypte : Louis doit rentrer à Genève pour soutenir sa famille, abandonnant le projet d'hôpital ophtalmologique.",
+    "source": "Wikipedia"
+  },
+  {
+    "date": "1874-10-15",
+    "type_evenement": "Naissance/Famille",
+    "lieu": "Genève",
+    "description": "Lettre de Louis Appia à Marie Claparède Appia, Genève, 15 octobre 1874",
+    "source": "10067"
+  },
+  {
+    "date": "1875-05-22",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Genève",
+    "description": "Lettre de Louis Appia à Paul Appia, Genève à Bâle, 22 mai 1875",
+    "source": "10068"
+  },
+  {
+    "date": "1875-09-18",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Paris",
+    "description": "Lettre de Louis Appia à Marie Claparède Appia, Paris, 18 septembre 1875",
+    "source": "10069"
+  },
+  {
+    "date": "1875-1881",
+    "type_evenement": "Correspondance",
+    "lieu": "Genève / Washington",
+    "description": "Correspondance suivie entre Louis Appia et Clara Barton. Appia et Gustave Moynier lui apportent conseils et soutien pour fonder la Croix-Rouge américaine.",
+    "source": "Library of Congress, Clara Barton Papers"
+  },
+  {
+    "date": "1879-08-01",
+    "type_evenement": "Naissance/Famille",
+    "lieu": "Torre Pellice",
+    "description": "Lettre de Louis Appia à Hélène Appia Sturge, Torre Pellice et Genève, 1er août 1879",
+    "source": "10072"
+  },
+  {
+    "date": "1880-02-10",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Paris",
+    "description": "Lettre de Louis Appia à Marie Claparède Appia, Paris, 10 février 1880",
+    "source": "10073"
+  },
+  {
+    "date": "1880",
+    "type_evenement": "Publication",
+    "lieu": "Monténégro",
+    "description": "Publication du feuillet 'Noël passé dans une ambulance'. Louis distribue des exemplaires du Nouveau Testament en russe aux soldats blessés au Monténégro.",
+    "source": "Wikipedia"
+  },
+  {
+    "date": "1882-09-30",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Genève",
+    "description": "Lettre de Louis Appia à Hélène Appia Sturge, Genève, 30 septembre 1882",
+    "source": "10074"
+  },
+  {
+    "date": "1883-01-20",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Genève",
+    "description": "Lettre de Louis Appia à Hélène Appia Sturge, Genève, 20 janvier 1883",
+    "source": "10075"
+  },
+  {
+    "date": "1883-09-18",
+    "type_evenement": "Naissance/Famille",
+    "lieu": "Paris",
+    "description": "Lettre de Louise Appia à Anna Ferrière, Paris, 18 septembre 1883",
+    "source": "10076"
+  },
+  {
+    "date": "1884-05-14",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Genève",
+    "description": "Lettre de Louis Appia à Hélène Appia Sturge, Genève, 14 mai 1884",
+    "source": "10077"
+  },
+  {
+    "date": "1886-11-17",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Genève",
+    "description": "Lettre de Louis Appia à Henry Appia, Saint-Étienne, 17 novembre 1886",
+    "source": "10079"
+  },
+  {
+    "date": "1886",
+    "type_evenement": "Famille",
+    "lieu": "Genève",
+    "description": "Décès d'Anna Caroline Lasserre, épouse de Louis Appia, à l'âge de 52 ans.",
+    "source": "louis-appia.ch"
+  },
+  {
+    "date": "1889-08-08",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Genève",
+    "description": "Lettre de Louis Appia à Hélène Appia Sturge, Genève, 8 août 1889",
+    "source": "10080"
+  },
+  {
+    "date": "1896-02-17",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Genève",
+    "description": "Lettre de Louis Appia à Hélène Appia Sturge, Genève à Cannes, 17 février 1896",
+    "source": "10081"
+  },
+  {
+    "date": "1898-03-05",
+    "type_evenement": "Décès",
+    "lieu": "Genève",
+    "description": "Décès de Louis Appia à Genève",
+    "source": "Inféré des documents biographiques"
+  },
+  {
+    "date": "1er mai 1898",
+    "type_evenement": "Décès",
+    "lieu": "Genève",
+    "description": "Décès de Louis Appia à Genève. Il a participé à toutes les conférences de la Croix-Rouge et est resté membre du Comité international pendant 35 ans. Selon sa volonté expresse, aucune pierre ne marque sa tombe au cimetière de Saint-Georges.",
+    "source": "Wikipedia ; louis-appia.ch"
+  },
+  {
+    "date": "20 juillet 1856",
+    "type_evenement": "Famille",
+    "lieu": "Genève",
+    "description": "Lettre de Louis à son oncle Henry Clermont Lombard annonçant la naissance de son fils Paul. Ton joyeux. Paul Appia (1856-1925) sera le seul enfant à avoir une descendance.",
+    "source": "Doc privé : 18560720_Naissance Paul"
+  },
+  {
+    "date": "20 janvier 2019",
+    "type_evenement": "Commémoration",
+    "lieu": "Torre Pellice, Italie",
+    "description": "Proposition adressée au Sindaco de Torre Pellice pour la commémoration de la Madonna della Scoperta. Document en italien évoquant la mémoire de la famille Appia dans le Piémont vaudois.",
+    "source": "Doc privé : 2010120_Per il Sindaco"
+  },
+  {
+    "date": "2004-2005",
+    "type_evenement": "Recherche historique",
+    "lieu": "Genève",
+    "description": "Publication de la 'Chronique familiale autour de Louis Appia' par Develey et Durand dans le Bulletin de la Société Genevoise de Généalogie n°2.",
+    "source": "louis-appia.ch"
+  },
+  {
+    "date": "2018",
+    "type_evenement": "Commémoration",
+    "lieu": "Genève / Torre Pellice",
+    "description": "Publication de 'Louis Appia, missionnaire de l'humanitaire – Contributions pour son bicentenaire', ouvrage collectif édité par Roger Durand, Valérie Lathion, Olivier Pictet et Rainer Schlösser.",
+    "source": "louis-appia.ch"
+  },
+  {
+    "date": "22 septembre 1855",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Russin (GE)",
+    "description": "Procès-verbal du Conseil de santé de Genève. Louis Appia intervient comme expert lors d'une épidémie de choléra à Russin. Document administratif détaillant les mesures sanitaires, les cas répertoriés, les décisions du conseil.",
+    "source": "Doc privé : 18550922_Conseil santé choléra Russin"
+  },
+  {
+    "date": "22 août 1864",
+    "type_evenement": "Fondation CICR",
+    "lieu": "Genève",
+    "description": "Signature de la première Convention de Genève par 13 nations. Appia a remis la veille son rapport sur les premières actions du CICR au Schleswig. Organisation de la conférence avec Dufour, Dunant, Maunoir et Moynier.",
+    "source": "Wikipedia"
+  },
+  {
+    "date": "24 juin 1859",
+    "type_evenement": "Engagement humanitaire",
+    "lieu": "Solférino, Italie",
+    "description": "Bataille de Solférino. Le frère de Louis, Georges (pasteur à Pinerolo), lui envoie des lettres sur la situation des blessés. Louis rassemble des fonds et des ressources à Genève.",
+    "source": "Wikipedia ; Musée protestant"
+  },
+  {
+    "date": "26 mars 1864",
+    "type_evenement": "Mission CICR",
+    "lieu": "Berlin",
+    "description": "Journal de guerre de Louis Appia depuis Berlin, lettre à son épouse Anna à l'attention de Gustave Moynier. Publié par la Société Henry Dunant.",
+    "source": "Société Henry Dunant"
+  },
+  {
+    "date": "26-29 octobre 1863",
+    "type_evenement": "Fondation CICR",
+    "lieu": "Genève",
+    "description": "Conférence internationale préparatoire. Louis Appia propose que tous les volontaires portent des brassards blancs sur le champ de bataille. Le général Dufour y ajoute une croix rouge, créant le symbole du Comité — l'inverse du drapeau suisse.",
+    "source": "Wikipedia"
+  },
+  {
+    "date": "29 mai 1849",
+    "type_evenement": "Correspondance",
+    "lieu": "Genève",
+    "description": "Lettre de Louis à sa mère Caroline, écrite depuis Genève le lendemain de son arrivée. Installé chez son beau-frère Claparède. Décrit l'atmosphère paisible de Genève contrastant avec les troubles allemands. Évoque son projet d'installation comme médecin.",
+    "source": "Doc privé : 18490529_Louis Appia à Caroline"
+  },
+  {
+    "date": "29 septembre 1849",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Genève",
+    "description": "Lettre de Roy au maire Jean-Louis Micheli : expertise technique de la maison Rojoux à Jussy, évaluant sa conformité pour y installer un cabinet médical.",
+    "source": "Doc privé : 18490929_Expertise Roy maison Rojoux"
+  },
+  {
+    "date": "3 mars 1850",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Jussy (GE)",
+    "description": "Longue lettre de Louis Appia au maire Jean-Louis Micheli. Contenu technique et financier : détails sur sa pratique médicale, ses tarifs, les difficultés financières d'un médecin de campagne, les rapports avec les patients. Document exceptionnel sur la réalité quotidienne d'un médecin rural genevois au milieu du XIXe siècle.",
+    "source": "Doc privé : 18500303_LA à Micheli"
+  },
+  {
+    "date": "3-5 septembre 1849",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Francfort → Jussy (GE)",
+    "description": "Lettres de Louis Appia à M. Roehrich et au maire Jean-Louis Micheli de Jussy, depuis Francfort. Il manifeste son intérêt pour s'installer comme médecin de campagne à Jussy. Évoque les conditions d'installation et ses motivations.",
+    "source": "Doc privé : 18490903_LA à Jussy (2 versions)"
+  },
+  {
+    "date": "30 décembre 1850",
+    "type_evenement": "Correspondance",
+    "lieu": "Genève",
+    "description": "Lettre touchante de Louis à sa sœur Marie Claparède née Appia. Il évoque les enfances d'Anna et Ernestine, la vie familiale, les souvenirs d'enfance. Ton très personnel et affectueux.",
+    "source": "Doc privé : 18501230_LA à Marie Claparède"
+  },
+  {
+    "date": "5 janvier 2018",
+    "type_evenement": "Recherche historique",
+    "lieu": null,
+    "description": "Compilation de correspondances entre Raoul Pictet et ses parents mentionnant Louis Appia en Égypte. Document de recherche moderne éclairant la mission égyptienne de 1872.",
+    "source": "Doc privé : 2018014_Lettres Raoul Pictet"
+  },
+  {
+    "date": "9 mars 1850",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Jussy (GE)",
+    "description": "Document fragmentaire : lettre de Louis Appia à Micheli concernant les tarifs médicaux pratiqués.",
+    "source": "Doc privé : 18500309_Tarifs Micheli"
+  },
+  {
+    "date": "9 février 1863",
+    "type_evenement": "Fondation CICR",
+    "lieu": "Genève",
+    "description": "La Société genevoise d'utilité publique crée une commission d'étude. Louis Appia est invité à rejoindre le 'Comité des Cinq' avec Henri Dunant, Gustave Moynier, le général Guillaume-Henri Dufour et Théodore Maunoir.",
+    "source": "Wikipedia ; Musée protestant"
+  },
+  {
+    "date": "Années 1830",
+    "type_evenement": "Formation",
+    "lieu": "Francfort-sur-le-Main",
+    "description": "Louis fréquente le Gymnasium (lycée) à Francfort.",
+    "source": "Wikipedia"
+  },
+  {
+    "date": "Août 1859",
+    "type_evenement": "Publication",
+    "lieu": "Genève",
+    "description": "Retour à Genève. Avec l'aide de Théodore Maunoir, il achève et publie 'Le chirurgien à l'ambulance, ou quelques études pratiques sur les plaies par armes à feu', suivi de 'Lettres à un collègue sur les blessés de Palestro, Magenta, Marignan et Solférino'.",
+    "source": "Wikipedia ; Amazon"
+  },
+  {
+    "date": "Août 1869",
+    "type_evenement": "Rencontre",
+    "lieu": "Suisse",
+    "description": "Rencontre avec Clara Barton, en Suisse pour un repos médical. Impressionné par ses activités pendant la guerre de Sécession, il lui demande pourquoi les États-Unis n'ont pas signé la Convention de Genève. Conversation déterminante pour la fondation future de la Croix-Rouge américaine.",
+    "source": "Wikipedia ; Library of Congress"
+  },
+  {
+    "date": "Février 1848",
+    "type_evenement": "Engagement humanitaire",
+    "lieu": "Paris",
+    "description": "Louis assiste les blessés lors de la révolution de février 1848 à Paris. Tournant décisif vers la médecine de guerre.",
+    "source": "Wikipedia ; Musée protestant"
+  },
+  {
+    "date": "Janvier 1860",
+    "type_evenement": "Distinction",
+    "lieu": "Turin",
+    "description": "Louis Appia et Henri Dunant sont décorés de l'Ordre des Saints-Maurice-et-Lazare par le roi Victor-Emmanuel II de Savoie, pour leur travail médical pendant la guerre austro-sarde.",
+    "source": "Wikipedia"
+  },
+  {
+    "date": "Janvier 1864",
+    "type_evenement": "Mission CICR",
+    "lieu": "Schleswig-Holstein",
+    "description": "Guerre dano-prussienne. Louis Appia et le capitaine néerlandais Charles Van de Velde deviennent les premiers délégués du CICR envoyés sur un champ de bataille. Lors de la bataille de Dybbøl, ils sont les premiers à porter le brassard de la Croix-Rouge comme observateurs neutres.",
+    "source": "Wikipedia ; CICR"
+  },
+  {
+    "date": "Juillet 1859",
+    "type_evenement": "Engagement humanitaire",
+    "lieu": "Turin, Milan, Brescia, Desenzano",
+    "description": "Louis se rend en Italie et travaille dans les hôpitaux de campagne : Turin, Milan, Brescia et Desenzano del Garda. À l'hôpital Saint-Philippe de Milan, son appareil à fractures est testé avec succès sur un lieutenant blessé.",
+    "source": "Wikipedia"
+  },
+  {
+    "date": "Mars 1842",
+    "type_evenement": "Formation",
+    "lieu": "Heidelberg",
+    "description": "Obtention du doctorat en médecine à l'université de Heidelberg.",
+    "source": "Wikipedia ; louis-appia.ch"
+  },
+  {
+    "date": "Mars 1848",
+    "type_evenement": "Engagement humanitaire",
+    "lieu": "Francfort-sur-le-Main",
+    "description": "Louis soigne les blessés lors de la révolution de mars dans les États allemands.",
+    "source": "Wikipedia"
+  },
+  {
+    "date": "Novembre 1860",
+    "type_evenement": "Carrière médicale",
+    "lieu": "Genève",
+    "description": "Louis Appia obtient le droit de bourgeoisie de Genève.",
+    "source": "Wikipedia"
+  },
+  {
+    "date": "XIVe-XVIIIe s.",
+    "type_evenement": "Origines familiales",
+    "lieu": "Piémont, Italie",
+    "description": "La famille Appia est une ancienne famille vaudoise du Piémont, ayant ses racines dans les vallées vaudoises depuis le XIVe siècle.",
+    "source": "louis-appia.ch ; Béatrice Appia, Bollettino SSV n°126, 1969"
+  },
+  {
+    "date": "~1848",
+    "type_evenement": "Correspondance",
+    "lieu": "Francfort (?)",
+    "description": "Lettre de Louis à son frère Georges Appia à Torre Pellice. Réflexions intimes sur sa carrière : il évoque ses doutes sur ses capacités intellectuelles pour la science académique, son choix de la médecine pratique plutôt que l'enseignement. Il mentionne l'anatomie, la physiologie, et les conférences de Langenbeck à Heidelberg.",
+    "source": "Doc privé : 18480000_Louis à Georges Appia"
+  },
+  {
+    "date": "~1870-1890",
+    "type_evenement": "Correspondance",
+    "lieu": null,
+    "description": "Lettre de Louis à ses cousines. Évoque des visites familiales, des réflexions sur l'éducation morale de la jeunesse. Ton chaleureux et social.",
+    "source": "Doc privé : 00000421_Mes chères cousines"
+  },
+  {
+    "date": "~1870-1890",
+    "type_evenement": "Correspondance",
+    "lieu": null,
+    "description": "Lettre de Louis à sa cousine. Défense diplomatique mais ferme de la dignité du rôle pastoral de son frère Georges, à la suite d'un incident lors d'un mariage familial.",
+    "source": "Doc privé : 00000911_Ma chère cousine"
+  },
+  {
+    "date": "~1880-1890",
+    "type_evenement": "Correspondance",
+    "lieu": null,
+    "description": "Longue lettre théologique de Louis à son neveu Louis (fils de Georges), qui prépare sa thèse sur la solidarité. Conseils approfondis sur le péché originel, l'expiation, la conciliation entre sciences naturelles et théologie réformée. Recommande des ouvrages de Ch. Secrétan et Gretillat. Document révélant la profondeur intellectuelle et théologique de Louis à la fin de sa vie.",
+    "source": "Doc privé : 00000001_Lettre au neveu (3 versions)"
+  }
+]

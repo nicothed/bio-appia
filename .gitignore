@@ -1,0 +1,11 @@
+# ── Repo PUBLIC (GitHub Pages) ──
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*~
