@@ -1,0 +1,60 @@
+{
+  "title": "Louis Appia (1818-1898)",
+  "subtitle": "Médecin, humaniste et cofondateur de la Croix-Rouge",
+  "author": "Roger Durand",
+  "chapters": [
+    { "file": "00a-avant-propos.md", "id": "avant-propos", "label": "Avant-propos", "group": "intro" },
+    { "file": "01-origines.md",      "id": "ch01", "label": "Ch. 1 — Les origines",          "group": "chapitre" },
+    { "file": "02-formation.md",     "id": "ch02", "label": "Ch. 2 — Formation médicale",     "group": "chapitre" },
+    { "file": "03-installation.md",  "id": "ch03", "label": "Ch. 3 — Installation à Genève",  "group": "chapitre" },
+    { "file": "04-jussy.md",         "id": "ch04", "label": "Ch. 4 — Jussy",                  "group": "chapitre" },
+    { "file": "05-medecin-campagne.md","id":"ch05", "label": "Ch. 5 — Médecin de campagne",    "group": "chapitre" },
+    { "file": "06-solferino.md",     "id": "ch06", "label": "Ch. 6 — Solferino",              "group": "chapitre" },
+    { "file": "07-fondation-cicr.md","id": "ch07", "label": "Ch. 7 — Fondation du CICR",      "group": "chapitre" },
+    { "file": "08-schleswig.md",     "id": "ch08", "label": "Ch. 8 — Schleswig-Holstein",     "group": "chapitre" },
+    { "file": "09-italie.md",        "id": "ch09", "label": "Ch. 9 — Campagnes d'Italie",     "group": "chapitre" },
+    { "file": "10-guerre-1870.md",   "id": "ch10", "label": "Ch. 10 — Guerre de 1870",        "group": "chapitre" },
+    { "file": "11-contributions-medicales.md","id":"ch11","label":"Ch. 11 — Médecine",         "group": "chapitre" },
+    { "file": "12-engagement-religieux.md","id":"ch12","label":"Ch. 12 — Engagement religieux", "group": "chapitre" },
+    { "file": "13-dernieres-annees.md","id":"ch13", "label": "Ch. 13 — Dernières années",     "group": "chapitre" },
+    { "file": "14-heritage.md",      "id": "ch14", "label": "Ch. 14 — Héritage",              "group": "chapitre" },
+    { "file": "15-postface.md",      "id": "postface", "label": "Postface",                   "group": "annexe" },
+    { "file": "16-references.md",    "id": "references","label": "Sources (330 documents)",    "group": "annexe" },
+    { "file": "17-index-personnes.md","id":"index-personnes","label":"Index des personnes",    "group": "annexe" },
+    { "file": "18-index-themes.md",  "id": "index-themes","label": "Index thématique",        "group": "annexe" }
+  ],
+  "specialPages": [
+    { "id": "iconographie", "label": "Iconographie", "group": "annexe" },
+    { "id": "frise", "label": "Frise chronologique", "group": "annexe" }
+  ],
+  "persons": {
+    "Louis Appia":              { "dates":"1818-1898", "role":"Cofondateur du CICR, chirurgien", "bio":"Médecin genevois d'origine vaudoise, cofondateur du Comité international de la Croix-Rouge (1863). Formé à Heidelberg, auteur du traité Le Chirurgien à l'ambulance. Premier délégué à porter le brassard de la croix rouge sur un champ de bataille (Schleswig, 1864). Missions en Italie (1866) et pendant la guerre franco-prussienne (1870-1871)." },
+    "Henry Dunant":             { "dates":"1828-1910", "role":"Cofondateur du CICR, Prix Nobel 1901", "bio":"Homme d'affaires genevois témoin de la bataille de Solferino (1859). Publie Un souvenir de Solferino (1862) qui inspire la création du CICR. Premier Prix Nobel de la Paix (1901). Ruiné dans les années 1870, redécouvert à la fin de sa vie." },
+    "Gustave Moynier":          { "dates":"1826-1910", "role":"Président du CICR (1864-1910)", "bio":"Juriste et philanthrope genevois, architecte institutionnel du CICR. Président pendant 46 ans, il transforme le Comité en organisation permanente et respectée. Rôle clé dans l'adoption de la Convention de Genève de 1864." },
+    "Guillaume-Henri Dufour":   { "dates":"1787-1875", "role":"Général, premier président du CICR", "bio":"Général suisse, cartographe et homme d'État. Héros de la guerre du Sonderbund (1847). Son prestige confère au jeune CICR la crédibilité nécessaire. La Pointe Dufour, point culminant de la Suisse, porte son nom." },
+    "Théodore Maunoir":         { "dates":"1806-1869", "role":"Chirurgien, cofondateur du CICR", "bio":"Chirurgien genevois réputé, cinquième membre fondateur du Comité des Cinq. Sa réputation scientifique contribue à la légitimité du mouvement humanitaire naissant." },
+    "Georges Appia":            { "dates":"1827-1910", "role":"Pasteur, frère de Louis Appia", "bio":"Frère cadet de Louis, pasteur vaudois établi à Pinerolo puis à Londres. C'est par ses lettres depuis le Piémont que Louis reçoit les nouvelles de Solferino en 1859." },
+    "Clara Barton":             { "dates":"1821-1912", "role":"Fondatrice de la Croix-Rouge américaine", "bio":"Infirmière américaine surnommée l'Ange du champ de bataille pendant la guerre de Sécession. Fonde la Croix-Rouge américaine en 1881. Correspondance soutenue avec Louis Appia." },
+    "Giuseppe Garibaldi":       { "dates":"1807-1882", "role":"Général italien, héros du Risorgimento", "bio":"Héros de l'Unification italienne. Appia le rencontre en 1866 lors de la campagne du Trentin et installe une ambulance à Bezzecca pour soigner les blessés garibaldiens." },
+    "Napoléon III":             { "dates":"1808-1873", "role":"Empereur des Français", "bio":"Empereur des Français (1852-1870). Protagoniste de la bataille de Solferino (1859). Sa défaite à Sedan (1870) entraîne la chute du Second Empire." },
+    "Otto von Bismarck":        { "dates":"1815-1898", "role":"Chancelier de Prusse et de l'Empire", "bio":"Architecte de l'unification allemande. Les guerres qu'il orchestre — contre le Danemark (1864), l'Autriche (1866) et la France (1870) — sont les théâtres des missions humanitaires d'Appia." },
+    "Bernhard von Langenbeck":  { "dates":"1810-1887", "role":"Chirurgien militaire prussien", "bio":"Chirurgien militaire de renommée européenne. Interlocuteur scientifique d'Appia lors de la mission au Schleswig (1864). Leurs échanges témoignent de l'expertise reconnue d'Appia." },
+    "Charles van de Velde":     { "dates":"XIXe s.", "role":"Premier codélégué du CICR", "bio":"Capitaine de la marine néerlandaise, premier codélégué du CICR aux côtés d'Appia au Schleswig-Holstein (1864). Ensemble, ils portent pour la première fois le brassard de la croix rouge." },
+    "Victor-Emmanuel II":       { "dates":"1820-1878", "role":"Roi d'Italie", "bio":"Premier roi d'Italie. En 1866, s'allie à la Prusse contre l'Autriche, déclenchant la troisième guerre d'indépendance à laquelle Appia participe comme délégué humanitaire." },
+    "Louis Ferrière":           { "dates":"XIXe s.", "role":"Secrétaire du CICR, cousin d'Appia", "bio":"Cousin de Louis Appia et secrétaire du CICR. Ses lettres de la guerre de 1870 témoignent de la dimension spirituelle des missions : les délégués lisent et prient ensemble chaque soir." },
+    "Roger Durand":             { "dates":"", "role":"Historien, biographe d'Appia", "bio":"Historien genevois, auteur de la bio-bibliographie de Louis Appia. Principal artisan de la redécouverte de ce cofondateur méconnu de la Croix-Rouge." }
+  },
+  "images": [
+    { "file":"frontispice_appia_decorations.jpeg", "title":"Portrait du Dr Louis Appia avec ses décorations", "desc":"Photographie de Louis Appia portant les nombreuses médailles reçues pour ses services humanitaires. Inscription : « Le Docteur Louis Appia 1818-1898, Cofondateur de la Croix-Rouge »." },
+    { "file":"portrait_protestant_italien.jpeg", "title":"Portrait d'un protestant des vallées vaudoises", "desc":"Portrait photographique d'un membre de la communauté protestante des vallées vaudoises du Piémont, à laquelle la famille Appia est enracinée." },
+    { "file":"fondateurs_cicr_1863.jpeg", "title":"Les cinq fondateurs du CICR, Genève, 1863", "desc":"Général Dufour (centre), Gustave Moynier, Henry Dunant, Dr Louis Appia et Dr Théodore Maunoir." },
+    { "file":"dessin_solferino_1859.jpeg", "title":"Dessin de Solferino — visite d'Appia en 1859", "desc":"Dessin au crayon du village de Solferino. En juillet 1859, Louis Appia quitta Genève pour soigner les blessés de la 2e Guerre d'Indépendance italienne." },
+    { "file":"ambulance_hopital_campagne.png", "title":"Hôpital de campagne de la Croix-Rouge", "desc":"Gravure d'un hôpital de campagne. Au premier plan, une caisse marquée de la croix rouge — symbole utilisé pour la première fois au Schleswig (1864)." },
+    { "file":"scene_militaire_troupes.png", "title":"Mouvements de troupes, guerre de 1870", "desc":"Gravure illustrant les mouvements de cavalerie pendant la guerre franco-prussienne de 1870-1871." },
+    { "file":"ambulance_hiver_neige.png", "title":"Ambulance hippomobile dans la neige, hiver 1870-1871", "desc":"Ambulance tirée par des chevaux traversant un paysage enneigé. Les conditions hivernales rendaient l'évacuation des blessés particulièrement éprouvante." },
+    { "file":"mosquee_sistova.png", "title":"Mosquée de Sistova", "desc":"Gravure d'une mosquée à Sistova (Svishtov, Bulgarie). Les principes humanitaires devaient aussi s'appliquer dans les conflits des Balkans." },
+    { "file":"bezzecca_inscription.wmf", "title":"Inscription commémorative à Bezzecca", "desc":"Inscription à Bezzecca (Trentin), lieu de la bataille du 21 juillet 1866 où Appia installa son ambulance au service des blessés garibaldiens." },
+    { "file":"societa_studi_valdesi.jpeg", "title":"Emblème de la Società di Studi Valdesi, Torre Pellice", "desc":"Fondée en 1881. Devise « Lux lucet in tenebris ». Conserve les archives des familles protestantes des vallées piémontaises." },
+    { "file":"article_david_appia.jpeg", "title":"Article biographique de David Appia (2018)", "desc":"Article consacré à Louis Appia par son descendant David Appia, publié en novembre 2018, participant au renouveau de sa mémoire." }
+  ]
+}
