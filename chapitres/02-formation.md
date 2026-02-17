@@ -1,6 +1,6 @@
 # Chapitre 2 : Études de médecine et premiers engagements (1836-1848)
 
-## Les études préparatoires à Genève (1836-1838)
+## Les études préparatoires à Genève (1836-1838)...
 
 En novembre 1836, à l'âge de dix-huit ans, Louis Appia quitte le foyer familial de la région rhénane pour entreprendre ses études supérieures à Genève. Cette migration constitue un tournant décisif dans sa formation et son intégration à la vie intellectuelle genevoise. Elle s'inscrit naturellement dans le parcours des élites protestantes de la région, attirées par la réputation de l'Académie genevoise et l'environnement culturel et spirituel de la Cité de Calvin[^02_1].
 
